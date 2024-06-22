@@ -40,7 +40,7 @@ const Index = () => {
         />
         <Button onClick={handleSubmit} isLoading={loading} colorScheme="teal">Generate</Button>
         {loading && <Spinner />}
-        {response and (
+        {response && (
           <Box p={4} borderWidth="1px" borderRadius="lg" width="100%">
             <Text>{response}</Text>
           </Box>
